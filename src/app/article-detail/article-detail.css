@@ -1,0 +1,33 @@
+.article-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.article-date {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.article-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.article-content {
+  line-height: 1.6;
+}

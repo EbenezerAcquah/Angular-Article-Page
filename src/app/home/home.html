@@ -1,0 +1,12 @@
+<div class="articles-container">
+  <h1>Latest Articles</h1>
+  <div class="articles-grid">
+    <div class="article-card" *ngFor="let article of articles" [routerLink]="['/article', article.id]">
+      <img [src]="article.thumbnail" [alt]="article.title" class="article-thumbnail">
+      <div class="article-info">
+        <h2 class="article-title">{{ article.title }}</h2>
+        <p class="article-date">{{ article.datePosted | date:'mediumDate' }}</p>
+      </div>
+    </div>
+  </div>
+</div>
